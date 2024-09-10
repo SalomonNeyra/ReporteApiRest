@@ -78,7 +78,7 @@ namespace NetCoreYouTube.Controllers
  
     public class EndosoController : ControllerBase
     {
-        private readonly string _connectionString = "Data Source=DESKTOP-M91V76V;Initial Catalog=VisualGeneracionPdf;User ID=sa;Password=123456";
+        private readonly string _connectionString = "Data Source=DESKTOP-FVDD665;Initial Catalog=VisualGeneracionPdf;User ID=sa;Password=12345678";
         //   using (SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-M91V76V;Initial Catalog=VisualGeneracionPdf;uid=sa;pwd=123456"))
 
         [HttpPost("GenerarPdfEndoso")]
