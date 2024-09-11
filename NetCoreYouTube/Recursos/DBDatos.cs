@@ -9,7 +9,7 @@ namespace NetCoreYouTube.Recursos
 
         public static object ListarTablas(string nombreProcedimiento, List<Parametro> parametros = null)
         {
-            using (SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-FVDD665;Initial Catalog=VisualGeneracionPdf;uid=sa;pwd=12345678"))
+            using (SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-M91V76V;Initial Catalog=VisualGeneracionPdf;User ID=sa;Password=123456"))
             {
                 try
                 {
@@ -61,7 +61,7 @@ namespace NetCoreYouTube.Recursos
             try
             {
                 // Abrimos la conexión con la base de datos utilizando un bloque "using"
-                using (SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-FVDD665;Initial Catalog=VisualGeneracionPdf;uid=sa;pwd=12345678"))
+                using (SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-M91V76V;Initial Catalog=VisualGeneracionPdf;User ID=sa;Password=123456"))
 
                 {
                     // Configuramos el comando para ejecutar el procedimiento almacenado
